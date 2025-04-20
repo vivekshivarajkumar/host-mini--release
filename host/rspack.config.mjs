@@ -15,6 +15,9 @@ const __dirname = path.dirname(__filename);
 export default {
   context: __dirname,
   entry: './index.js',
+  output: {
+    uniqueName: 'host',
+  },
   resolve: {
     ...Repack.getResolveOptions(),
   },
@@ -24,7 +27,14 @@ export default {
       ...Repack.getAssetTransformRules(),
     ],
   },
-  plugins: [new Repack.RepackPlugin(),
+  plugins: [
+    new Repack.RepackPlugin({
+      platform: 'android',
+      context: __dirname,
+      output: {
+        uniqueName: 'host',
+      }
+    }),
     new Repack.plugins.ModuleFederationPluginV2({
       name: 'host',
       filename: 'host.container.js.bundle',
@@ -35,16 +45,24 @@ export default {
         react: {
           singleton: true,
           eager: true,
+          requiredVersion: '19.0.0',
         },
         'react-native': {
           singleton: true,
-          eager: true,
+          eager: true, 
+          requiredVersion: '0.78.2',
         },
         '@module-federation/enhanced': {
           singleton: true,
           eager: true,
+          requiredVersion: '^0.12.0',
         },
       },
+    }),
+    new Repack.plugins.HermesBytecodePlugin({
+      enabled: true,
+      test: /\.(js)?bundle$/,
+      exclude: /index.bundle$/,
     }),
   ],
 };

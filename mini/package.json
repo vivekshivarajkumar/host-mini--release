@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "bundle": "react-native bundle --platform android --entry-file index.js "
+    "bundle": "react-native bundle --platform android --entry-file index.js",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm cache clean --force"
   },
 
   "dependencies": {
@@ -41,5 +42,9 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "overrides": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }

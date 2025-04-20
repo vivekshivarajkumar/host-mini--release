@@ -1,18 +1,15 @@
-/**
- * @format
- */
-
 import React, { Suspense } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { AppRegistry } from 'react-native';
 import { name as appName } from './app.json';
+import ErrorBoundary from './ErrorBoundary';
 
 const MiniApp = React.lazy(() => import('mini/App'));
 
 const Fallback = () => {
   return (
     <View style={styles.fallbackContainer}>
-      <Text style={styles.fallbackText}>host app 🥹</Text>
+      <Text style={styles.fallbackText}>host app ✨</Text>
       <Text style={styles.fallbackTextMini}>loading mini app ⏳</Text>
     </View>
   );
@@ -20,9 +17,11 @@ const Fallback = () => {
 
 const App = () => {
   return (
-    <Suspense fallback={<Fallback />}>
-      <MiniApp />
-    </Suspense>
+    <ErrorBoundary>
+      <Suspense fallback={<Fallback />}>
+        <MiniApp />
+      </Suspense>
+    </ErrorBoundary>
   );
 };
 
