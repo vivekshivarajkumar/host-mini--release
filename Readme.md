@@ -156,3 +156,43 @@ AppRegistry.registerComponent(appName, () => App);
 - ❌ Fails in release mode: `npm run android -- --mode="release"`
 
 Can someone help identify the specific issue?
+
+--------- beginning of crash
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: Process: com.host, PID: 20252
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: com.facebook.react.common.JavascriptException: TypeError: undefined is not a function
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: This error is located at:
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at App (https://mini.ct0.in/__federation_expose_App.chunk.bundle:21:54)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at Suspense (<anonymous>)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at App (<anonymous>)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at RCTView (<anonymous>)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at anonymous (address at index.android.bundle:1:327642)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime:     at AppContainer (address at index.android.bundle:1:391529), js engine: hermes, stack:
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: getOwner@9060:63
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: jsxDEVImpl@9147:66
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: anonymous@9194:25
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: App@31:46
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: renderWithHooks@1:440815
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: updateFunctionComponent@1:453215
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: beginWork@1:461138
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: performUnitOfWork@1:481430
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: workLoopSync@1:480462
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: renderRootSync@1:480294
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: performWorkOnRoot@1:477786
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: performWorkOnRootViaSchedulerTask@1:431090
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:997)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:111)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:27)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:237)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:325)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl.lambda$startNewBackgroundThread$2(MessageQueueThreadImpl.java:217)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+04-20 19:23:16.080 20252 20289 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1012)
+04-20 19:23:16.094 20252 20289 I HiView  : Begin report 1002
+04-20 19:23:16.094 20252 20289 D HiEvent : event mTime is 0, set mTime = 1745157196094
+04-20 19:23:16.094 20252 20289 I HiEvent : Flatten done: 1002
+04-20 19:23:16.094 20252 20289 I Process : Sending signal. PID: 20252 SIG: 9

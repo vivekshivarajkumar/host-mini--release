@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+     "logs": "adb shell pidof com.host | xargs -I {} adb logcat --pid={} > logs.txt"
   },
   "dependencies": {
     "@module-federation/enhanced": "^0.12.0",
