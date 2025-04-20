@@ -31,6 +31,20 @@ export default {
       remotes: {
         mini: 'mini@https://mini.ct0.in/mf-manifest.json',
       },
+      shared: {
+        react: {
+          singleton: true,
+          eager: true,
+        },
+        'react-native': {
+          singleton: true,
+          eager: true,
+        },
+        '@module-federation/enhanced': {
+          singleton: true,
+          eager: true,
+        },
+      },
     }),
   ],
 };

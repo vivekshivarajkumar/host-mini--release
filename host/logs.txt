@@ -1,0 +1,323 @@
+--------- beginning of main
+04-20 19:40:14.956 27302 27302 I Zygote  : MountEmulatedStorage
+04-20 19:40:14.957 27302 27302 I Zygote  : mount_data_dirs
+04-20 19:40:14.958 27302 27302 I Zygote  : mount_storage_dirs
+04-20 19:40:14.958 27302 27302 I Zygote  : PreInitializeNativeBridge
+04-20 19:40:14.967 27302 27302 I Zygote  : CallStaticVoidMethod
+04-20 19:40:14.967 27302 27302 I com.host: Using CollectorTypeCMC GC.
+04-20 19:40:14.970 27302 27302 E com.host: Not starting debugger since process cannot load the jdwp agent.
+04-20 19:40:14.974 27302 27302 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+04-20 19:40:14.975 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+--------- beginning of system
+04-20 19:40:14.976 27302 27302 I ActivityThread: preloadStatus:1
+04-20 19:40:14.978 27302 27302 D ActivityThread: Attach thread to application
+04-20 19:40:14.985 27302 27302 I Typeface: setSystemFontMap SharedMemory
+04-20 19:40:14.986 27302 27302 I Typeface: setSystemFontMap Typaface
+04-20 19:40:14.986 27302 27310 I HwActivityThreadImpl: mSocketName: 18787cb0-9950-4ccf-b2f3-1e2c323189f5
+04-20 19:40:14.986 27302 27310 I HwActivityThreadImpl: initPreloadedSocked end mPreloadStatus 2
+04-20 19:40:14.987 27302 27312 I ActivityThread: Init compatible state: true
+04-20 19:40:14.990 27302 27302 I ResourcesManager: applyConfigurationToResources: smallestScreenWidthDp = 377mMaxBounds = Rect(0, 0 - 1224, 2700)
+04-20 19:40:14.997 27302 27302 D nativeloader: Configuring clns-7 for other apk /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/lib/arm64:/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.host
+04-20 19:40:14.999 27302 27302 D CompatChangeReporter: Compat change id reported: 202956589; UID 10535; state: ENABLED
+04-20 19:40:15.001 27302 27312 W HwCust  : CUST VERSION = false, use class = class android.app.HwCustApplicationPackageManagerImpl
+04-20 19:40:15.002 27302 27312 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.host#0#256
+04-20 19:40:15.002 27302 27312 I HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=0 newCnt=1
+04-20 19:40:15.003 27302 27302 V GraphicsEnvironment: Currently set values for:
+04-20 19:40:15.003 27302 27312 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.host#0#0
+04-20 19:40:15.003 27302 27312 I HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+04-20 19:40:15.003 27302 27302 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+04-20 19:40:15.003 27302 27302 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+04-20 19:40:15.003 27302 27302 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+04-20 19:40:15.003 27302 27302 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+04-20 19:40:15.004 27302 27302 I HwActivityThreadImpl: accept socket mSocketName: 18787cb0-9950-4ccf-b2f3-1e2c323189f5
+04-20 19:40:15.063 27302 27310 I HwActivityThreadImpl: before connect app.socketName:18787cb0-9950-4ccf-b2f3-1e2c323189f5
+04-20 19:40:15.063 27302 27302 I HwActivityThreadImpl: accept socket end
+04-20 19:40:15.063 27302 27310 I HwActivityThreadImpl: connectContinuePreload end mPreloadStatus 3
+04-20 19:40:15.063 27302 27302 I HwActivityThreadImpl: acceptPreloadedApplication end mPreloadStatus 3
+04-20 19:40:15.066 27302 27302 W FlutterAnimationAdvance: FlutterAnimationAdvance getInstance()
+04-20 19:40:15.066 27302 27312 I AwareBitmapCacher: init processName:com.host pid=27302 uid=10535
+04-20 19:40:15.069 27302 27302 D CompatChangeReporter: Compat change id reported: 279646685; UID 10535; state: ENABLED
+04-20 19:40:15.071 27302 27302 W SoLoader: Initializing SoLoader: 0
+04-20 19:40:15.071 27302 27302 W SoLoader: Recording new base apk path: /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk
+04-20 19:40:15.071 27302 27302 W SoLoader: Previously recorded 0 base apk paths.
+04-20 19:40:15.072 27302 27302 D CompatChangeReporter: Compat change id reported: 312399441; UID 10535; state: ENABLED
+04-20 19:40:15.072 27302 27302 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+04-20 19:40:15.072 27302 27320 E AwareLog: AtomicFileUtils: readFileLines file not exist: AtomicFile[/data/user/0/com.host/files/hw_cached_resid.list]
+04-20 19:40:15.072 27302 27302 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+04-20 19:40:15.072 27302 27302 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a]]
+04-20 19:40:15.073 27302 27302 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/lib/arm64 flags = 0]]
+04-20 19:40:15.073 27302 27302 I SoLoader: init finish: 4 SO sources prepared
+04-20 19:40:15.073 27302 27302 W SoLoader: SoLoader initialized: 8
+04-20 19:40:15.075 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libc++_shared.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.077 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libjsi.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.077 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libfbjni.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.080 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libreactnative.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Entering merged library JNI_OnLoad.
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x7a786b068c
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libmapbufferjni_so.  onload_func: 0x7a78703ee0
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x7a7877b3a0
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x7a787838c4
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x7a787a6ae8
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x7a7882aaa8
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x7a78848a90
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x7a78863a98
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x7a788c9198
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x7a788d06b0
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x7a788d5b04
+04-20 19:40:15.080 27302 27302 D jni_lib_merge: About to register 11 actual methods.
+04-20 19:40:15.081 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libappmodules.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.081 27302 27302 I SystemFonts: loadHwSystemFonts, isNightMode false, fontWeightScale is 100
+04-20 19:40:15.082 27302 27302 I HwTypeface: update default font
+04-20 19:40:15.082 27302 27312 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.079 27302 27302 W queued-work-loo: type=1400 audit(0.0:49359): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=628 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0
+04-20 19:40:15.099 27302 27302 I ActivityThread: finishPreloaded preloadStatus 3
+04-20 19:40:15.099 27302 27302 I ActivityThread: finishPreloaded end preloadStatus 3
+04-20 19:40:15.100 27302 27302 E RtgSchedIpcFile: RtgSchedIpcFile xxx failed to open /proc/27302/rtg
+04-20 19:40:15.101 27302 27302 E RtgSchedIpcFile: RtgSchedIpcFile xxx success to open /proc/rtg_gki/ioctl.
+04-20 19:40:15.101 27302 27302 I RmeSchedManager: init Rme, version is: v1.0
+04-20 19:40:15.101 27302 27302 I RmeSchedManager: init Rme, version is: v1.0
+04-20 19:40:15.101 27302 27302 I RtgSchedEvent: current pid:27302 AppType:-1
+04-20 19:40:15.101 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:22, errno:103
+04-20 19:40:15.102 27302 27302 V ActivityThread: Handling launch of ActivityRecord{7ad1758 token=android.os.BinderProxy@5a09aca {com.host/com.host.MainActivity}}
+04-20 19:40:15.102 27302 27302 I HWUI    : RenderCache taget:com.host, enableRenderCache: 0
+04-20 19:40:15.102 27302 27302 I HWUI    : No RenderCache config, try to find property.
+04-20 19:40:15.102 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.103 27302 27325 I AnimationPromotionUtils: com.host ensureViewAnimationPromotionEnabled: 0
+04-20 19:40:15.103 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.099 27302 27302 W com.host: type=1400 audit(0.0:49360): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=628 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0
+04-20 19:40:15.103 27302 27302 W com.host: type=1400 audit(0.0:49361): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=628 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0
+04-20 19:40:15.111 27302 27302 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+04-20 19:40:15.111 27302 27302 W RenderThread: type=1400 audit(0.0:49362): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=628 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0
+04-20 19:40:15.111 27302 27327 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.116 27302 27329 I GamesAware: Successfully registered minigame callback on pid 27302
+04-20 19:40:15.118 27302 27329 E GamesAware: IsInSupportList 'com.host' is not a game.
+04-20 19:40:15.118 27302 27329 I iGraphicsLoader: [~]A_pPipchG_giv{W$pipch$g_giv{$733/<4;;6MF~]
+04-20 19:40:15.118 27302 27329 I iGraphicsLoader: [~]44644<4eW$tj>$eig*liup($t>$61546~]
+04-20 19:40:15.118 27302 27329 I com.host: HwCustType is 0
+04-20 19:40:15.119 27302 27329 E com.host: open file error
+04-20 19:40:15.119 27302 27329 I com.host: no cota live update cust policy found
+04-20 19:40:15.119 27302 27329 I com.host: GetCfgDirRealPolicyValue: custPolicyDirs: /system/magic/base:/system/magic/oversea:/system/magic/oversea_honor:/vendor/etc:/odm/etc:/odm/hn_odm/ELP-N39I:/product_h/etc:/product_h/region_comm/oversea:/preas/oversea:/product_h/hn_oem/ELP-N39I:/preload/ELP-N39I/def/in:/cust/global:/cust/def/in:/version/cust/def/in:/product_h/special_cust/ELP-N39I/def/in:/version/special_cust/ELP-N39I/def/in:/cust/cotalite:/cust/ecota
+04-20 19:40:15.119 27302 27302 V ActivityThread: callActivityOnCreate
+04-20 19:40:15.121 27302 27329 I com.host: HwCustType is 0
+04-20 19:40:15.122 27302 27329 E com.host: open file error
+04-20 19:40:15.122 27302 27329 I com.host: no cota live update cust policy found
+04-20 19:40:15.122 27302 27329 I com.host: GetCfgDirRealPolicyValue: custPolicyDirs: /system/magic/base:/system/magic/oversea:/system/magic/oversea_honor:/vendor/etc:/odm/etc:/odm/hn_odm/ELP-N39I:/product_h/etc:/product_h/region_comm/oversea:/preas/oversea:/product_h/hn_oem/ELP-N39I:/preload/ELP-N39I/def/in:/cust/global:/cust/def/in:/version/cust/def/in:/product_h/special_cust/ELP-N39I/def/in:/version/special_cust/ELP-N39I/def/in:/cust/cotalite:/cust/ecota
+04-20 19:40:15.122 27302 27329 I iGraphics: [~kjtop$ku$c$uiove_$bkh_~]
+04-20 19:40:15.122 27302 27329 I iGraphics: [~]44544/4eW$jip$hic`$ehio`$|gh$5~]
+04-20 19:40:15.122 27302 27329 I iGraphics: [~El_emEhio`EijbkaR_vukij$aYtv_u_pR_vukij$66$aYehio`R_vukij$4~]
+04-20 19:40:15.122 27302 27329 I iGraphicsLoader: [~eig*liup$El_emQlkp_HkupCttJcg_Rchk`$el_em$hiech$kab|YcttYhkup~]
+04-20 19:40:15.123 27302 27329 I iGraphicsLoader: [~]44544<4eW$ji$utp$ctt>$eig*liup~]
+04-20 19:40:15.127 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libhermes.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.128 27302 27302 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libhermestooling.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: Entering merged library JNI_OnLoad.
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x7b0005e2ec
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x7b000647e8
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x7b00064ea4
+04-20 19:40:15.128 27302 27302 D jni_lib_merge: About to register 3 actual methods.
+04-20 19:40:15.135 27302 27302 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+04-20 19:40:15.135 27302 27302 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+04-20 19:40:15.135 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+04-20 19:40:15.136 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+04-20 19:40:15.136 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+04-20 19:40:15.136 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.136 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+04-20 19:40:15.135 27302 27302 W com.host: type=1400 audit(0.0:49363): avc:  denied  { read } for  name="u:object_r:userdebug_or_eng_prop:s0" dev="tmpfs" ino=628 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:userdebug_or_eng_prop:s0 tclass=file permissive=0
+04-20 19:40:15.136 27302 27302 D CompatChangeReporter: Compat change id reported: 309578419; UID 10535; state: ENABLED
+04-20 19:40:15.136 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+04-20 19:40:15.140 27302 27302 I ActivityThread: add activity client record, r= ActivityRecord{7ad1758 token=android.os.BinderProxy@5a09aca {com.host/com.host.MainActivity}} token= android.os.BinderProxy@5a09aca
+04-20 19:40:15.141 27302 27302 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+04-20 19:40:15.141 27302 27302 W unknown:BridgelessReact: ReactContext.onHostResume()
+04-20 19:40:15.142 27302 27302 I DecorView[]: set decor visibility 4
+04-20 19:40:15.142 27302 27302 D CompatChangeReporter: Compat change id reported: 352594277; UID 10535; state: ENABLED
+04-20 19:40:15.144 27302 27336 D HnContentRecognizerManager: handleMessage: mCurrentPackageName com.host
+04-20 19:40:15.143 27302 27302 W com.host: type=1400 audit(0.0:49364): avc:  denied  { read } for  name="u:object_r:agp_support_pre_composite_prop:s0" dev="tmpfs" ino=231 scontext=u:r:untrusted_app:s0:c23,c258,c512,c768 tcontext=u:object_r:agp_support_pre_composite_prop:s0 tclass=file permissive=0
+04-20 19:40:15.146 27302 27302 W libc    : Access denied finding property "sys.use_pre_composite.switch"
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: QUALCOMM build                   : 43c70540de, Ibee7afe120
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Build Date                       : 07/17/24
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: E031.45.02.16
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Local Branch                     : 
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.14.3.0.11.00.00.973.576
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Remote Branch                    : NONE
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Build Config                     : S P 16.1.2 AArch64
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Driver Version                   : 0762.24
+04-20 19:40:15.147 27302 27327 I AdrenoGLES-0: Process Name                     : com.host
+04-20 19:40:15.150 27302 27330 I ContentDelivererImpl: isFeatureOpen: false
+04-20 19:40:15.151 27302 27327 I AdrenoGLES-0: PFP: 0x01310168, ME: 0x00000000
+04-20 19:40:15.151 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+04-20 19:40:15.152 27302 27330 I ContentDelivererImpl: isNeedConfig: isReportBlack false isWhitePackage false isGameApp false isFeatureOpen false
+04-20 19:40:15.153 27302 27302 D FullScreenUtils: isNeedToHideStatusBar: splitscreenstate=-1
+04-20 19:40:15.153 27302 27327 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+04-20 19:40:15.155 27302 27302 D InputEventReceiver: dispatchInputInterval 1000000
+04-20 19:40:15.155 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.155 27302 27327 I AdrenoUtils: <ReadGpuID:357>: Reading chip ID through GSL
+04-20 19:40:15.155 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.156 27302 27302 I HwForceDarkManager: isSystemInDarkMode isResUiModeYes: false, isDarkMode: false
+04-20 19:40:15.156 27302 27302 I DecorView[]: set decor visibility 0
+04-20 19:40:15.156 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:23, errno:103
+04-20 19:40:15.156 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:22, errno:103
+04-20 19:40:15.156 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:23, errno:103
+04-20 19:40:15.156 27302 27302 I RmeSchedManager: init Rme, version is: v1.0
+04-20 19:40:15.156 27302 27302 I RtgSchedEvent: current pid:27302 AppType:-1
+04-20 19:40:15.156 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.157 27302 27302 D PhoneWindow: onViewRootImplSet activityToken android.os.BinderProxy@5a09aca,activityClientRecord ActivityRecord{7ad1758 token=android.os.BinderProxy@5a09aca {com.host/com.host.MainActivity}},isHnNavigationHide false isHidePrivateFlag = false
+04-20 19:40:15.157 27302 27302 D HwPhoneWindow: onViewRootImplSet activityToken android.os.BinderProxy@5a09aca,activityClientRecord ActivityRecord{7ad1758 token=android.os.BinderProxy@5a09aca {com.host/com.host.MainActivity}},isHwNavigationHide false
+04-20 19:40:15.157 27302 27302 D HiTouch_PressGestureDetector: onAttached:1
+04-20 19:40:15.157 27302 27302 D FullScreenUtils: isNeedToHideStatusBar: splitscreenstate=-1
+04-20 19:40:15.165 27302 27332 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+04-20 19:40:15.165 27302 27332 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+04-20 19:40:15.169 27302 27302 D VRI[MainActivity]: relayoutWindow: mRelayoutRequested = true
+04-20 19:40:15.169 27302 27302 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.169 27302 27302 I BufferQueueConsumer: [](id:6aa600000000,api:0,p:-1,c:27302) connect: controlledByApp=false
+04-20 19:40:15.169 27302 27302 I BufferQueueCore: BLASTBufferQueue : comm:com.host isTargetApp:0
+04-20 19:40:15.169 27302 27302 D RenderService: RCS is disable
+04-20 19:40:15.170 27302 27302 W libc    : Access denied finding property "sys.use_pre_composite.switch"
+04-20 19:40:15.170 27302 27302 D FullScreenUtils: isNeedToHideStatusBar: splitscreenstate=-1
+04-20 19:40:15.171 27302 27302 V VRI[MainActivity]: Visible with new config: {1.0 405mcc861mnc [en_IN] ldltr sw377dp w377dp h831dp 520dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1224, 2700) mAppBounds=Rect(0, 0 - 1224, 2700) mMaxBounds=Rect(0, 0 - 1224, 2700) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOverMode=undefined} suim:1 fontWeightScale:100 changeUserFlag:0 changeUiModeFlag:0 fullScreenVideoFlag:0 splitScreenState:0 landScapeFreeformFlag:1 hoverMode:0 changeIconStyleFlag:0 changeThemeStyleFlag:0 s.2 fontWeightAdjustment=0}
+04-20 19:40:15.171 27302 27302 V VRI[MainActivity]: Applying new config to window com.host/com.host.MainActivity, globalConfig: {1.0 405mcc861mnc [en_IN] ldltr sw377dp w377dp h831dp 520dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1224, 2700) mAppBounds=Rect(0, 0 - 1224, 2700) mMaxBounds=Rect(0, 0 - 1224, 2700) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOverMode=undefined} suim:1 fontWeightScale:100 changeUserFlag:0 changeUiModeFlag:0 fullScreenVideoFlag:0 splitScreenState:0 landScapeFreeformFlag:1 hoverMode:0 changeIconStyleFlag:0 changeThemeStyleFlag:0 s.13 fontWeightAdjustment=0}, overrideConfig: {1.0 405mcc861mnc [en_IN] ldltr sw377dp w377dp h831dp 520dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1224, 2700) mAppBounds=Rect(0, 0 - 1224, 2700) mMaxBounds=Rect(0, 0 - 1224, 2700) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOverMode=undefined} suim:1 fontWeightScale:100 changeUserFlag:0 changeUiModeFlag:0 fullScreenVideoFlag:0 splitScreenState:0 landScapeFreeformFlag:1 hoverMode:0 changeIconStyleFlag:0 changeThemeStyleFlag:0 s.2 fontWeightAdjustment=0}
+04-20 19:40:15.172 27302 27327 D libEGL  : [eglCreateWindowSurface] start window is 12970367457690208080
+04-20 19:40:15.172 27302 27327 I BufferQueueProducer: [VRI[MainActivity]#0(BLAST Consumer)0](id:6aa600000000,api:0,p:-1,c:27302) connect: api=1 producerControlledByApp=true
+04-20 19:40:15.173 27302 27302 I HwForceDarkManager: setAllowedHwForceDark:false package:com.host mCurrProcessState:0 mIsPackageNameChange:false hwForceDarkState:0 isViewAllowedForceDark:true isLastHonorForceDark:false
+04-20 19:40:15.175 27302 27334 D nativeloader: Load /data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk!/lib/arm64-v8a/libcallstack-repack.so using ns clns-7 from class loader (caller=/data/app/~~c1W5QCy1F_spFNA6NMR81w==/com.host-C0YI7gOYZ5SQKUcA-BbhUg==/base.apk): ok
+04-20 19:40:15.180 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+04-20 19:40:15.181 27302 27327 W libc    : Access denied finding property "ro.debuggable"
+04-20 19:40:15.182 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+04-20 19:40:15.182 27302 27302 I HwViewRootImpl: removeInvalidNode jank list is null
+04-20 19:40:15.185 27302 27302 W unknown:BridgelessReact: ReactContext.onHostResume()
+04-20 19:40:15.185 27302 27302 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+04-20 19:40:15.185 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+04-20 19:40:15.185 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+04-20 19:40:15.187 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+04-20 19:40:15.187 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+04-20 19:40:15.188 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+04-20 19:40:15.188 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+04-20 19:40:15.189 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+04-20 19:40:15.192 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+04-20 19:40:15.193 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+04-20 19:40:15.194 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+04-20 19:40:15.196 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+04-20 19:40:15.197 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+04-20 19:40:15.198 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+04-20 19:40:15.199 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+04-20 19:40:15.199 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+04-20 19:40:15.200 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+04-20 19:40:15.200 27302 27302 I VRI[MainActivity]: send MSG_WINDOW_FOCUS_CHANGED msg
+04-20 19:40:15.200 27302 27302 I InputEventReceiver: consumeEvents focus, 1
+04-20 19:40:15.201 27302 27302 V ImeFocusController: onWindowFocus: com.android.internal.policy.DecorView{ae615d9 V.E...... R....... 0,0-1224,2700}[MainActivity] softInputMode=STATE_UNSPECIFIED|ADJUST_RESIZE|IS_FORWARD_NAVIGATION
+04-20 19:40:15.201 27302 27302 V InputMethodManager: Restarting due to mRestartOnNextWindowFocus as true
+04-20 19:40:15.201 27302 27302 W InputMethodManager: startInputReason = 1
+04-20 19:40:15.201 27302 27302 V InputMethodManager: Starting input: editorInfo=android.view.inputmethod.EditorInfo@d759b9e ic=null
+04-20 19:40:15.201 27302 27302 V InputMethodManager: START INPUT: view=com.android.internal.policy.DecorView{ae615d9 V.E...... R....... 0,0-1224,2700 aid=0}[MainActivity],focus=false,windowFocus=true,window=android.view.ViewRootImpl$W@ab1967f,displayId=0,temporaryDetach=false,hasImeFocus=true ic=null editorInfo=android.view.inputmethod.EditorInfo@d759b9e startInputFlags=VIEW_HAS_FOCUS|INITIAL_CONNECTION
+04-20 19:40:15.202 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+04-20 19:40:15.203 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+04-20 19:40:15.203 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+04-20 19:40:15.204 27302 27302 I InputMethodManager: handleMessage: MSG_SET_ACTIVE true, was false
+04-20 19:40:15.204 27302 27302 V InputMethodManager: Starting input: Bind result=InputBindResult{result=SUCCESS_WAITING_IME_SESSION method=null id=com.touchtype.swiftkey/com.touchtype.KeyboardService sequence=340 result=1 isInputMethodSuppressingSpellChecker=false}
+04-20 19:40:15.204 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+04-20 19:40:15.205 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+04-20 19:40:15.205 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+04-20 19:40:15.206 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+04-20 19:40:15.206 27302 27333 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+04-20 19:40:15.206 27302 27302 I InputMethodManager: handleMessage: MSG_BIND 340,com.touchtype.swiftkey/com.touchtype.KeyboardService
+04-20 19:40:15.207 27302 27302 W InputMethodManager: startInputReason = 6
+04-20 19:40:15.207 27302 27302 V InputMethodManager: Starting input: editorInfo=android.view.inputmethod.EditorInfo@b36c2e4 ic=null
+04-20 19:40:15.207 27302 27302 V InputMethodManager: Starting input: finished by someone else. view=com.android.internal.policy.DecorView{ae615d9 V.E...... R....... 0,0-1224,2700 aid=0}[MainActivity],focus=false,windowFocus=true,window=android.view.ViewRootImpl$W@ab1967f,displayId=0,temporaryDetach=false,hasImeFocus=true servedView=com.android.internal.policy.DecorView{ae615d9 V.E...... R....... 0,0-1224,2700 aid=0}[MainActivity],focus=false,windowFocus=true,window=android.view.ViewRootImpl$W@ab1967f,displayId=0,temporaryDetach=false,hasImeFocus=true mServedConnecting=false
+04-20 19:40:15.213 27302 27333 I ReactNativeJS: Running "host"
+04-20 19:40:15.215 27302 27302 I SurfaceControl: nativeRelease 0xb400007c5de92e70 count: 1 name: Surface(name=d10a14b NavigationBar0)/@0x3118111 - animation-leash of insets_animation#3549
+04-20 19:40:15.215 27302 27302 I SurfaceControl: nativeRelease 0xb400007c5de92570 count: 1 name: Surface(name=3e80f21 StatusBar)/@0x7ed5276 - animation-leash of insets_animation#3550
+04-20 19:40:15.217 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:22, errno:103
+04-20 19:40:15.217 27302 27302 D RtgSchedIpcFile: setCommandByIoctl failed ret:-1, cmdid:23, errno:103
+04-20 19:40:15.220 27302 27302 D CompatChangeReporter: Compat change id reported: 63938206; UID 10535; state: ENABLED
+04-20 19:40:15.232 27302 27342 I WebViewFactory: Loading com.google.android.webview version 135.0.7049.38 (code 704903833)
+04-20 19:40:15.233 27302 27342 V ResourcesManager: The following library key has been added: ResourcesKey{ mHash=eeac678 mResDir=null mSplitDirs=[] mOverlayDirs=[/system/app/NavBarHideOverlay/NavBarHideOverlay.apk,/data/resource-cache/com.android.systemui-neutral-8dHI.frro,/data/resource-cache/com.android.systemui-accent-WyDk.frro,/data/resource-cache/com.android.systemui-dynamic-CBX4.frro] mLibDirs=[/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk,/data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.apk,/system_ext/framework/androidx.window.extensions.jar] mDisplayId=0 mOverrideConfig=v35 mCompatInfo={520dpi always-compat} mLoaders=[]}
+04-20 19:40:15.234 27302 27342 W ziparchive: Unable to open '/data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.dm': No such file or directory
+04-20 19:40:15.234 27302 27342 W ziparchive: Unable to open '/data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.dm': No such file or directory
+04-20 19:40:15.234 27302 27342 W com.host: Entry not found
+04-20 19:40:15.234 27302 27342 D nativeloader: Configuring clns-8 for other apk /data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.apk. target_sdk_version=35, uses_libraries=ALL, library_path=/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/lib/arm64:/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk!/lib/arm64-v8a:/data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+04-20 19:40:15.234 27302 27342 D nativeloader: Extending system_exposed_libraries: libautotune.honor.so:libteec.honor.so:libiGraphicsCore.honor.so:libautotune.honor.so:libmediaalgoclient.honor.so:libIsfClient.honor.so:libteec_system.honor.so
+04-20 19:40:15.235 27302 27342 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+04-20 19:40:15.237 27302 27342 D nativeloader: Configuring clns-9 for other apk /data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/lib/arm64:/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk!/lib/arm64-v8a:/data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand
+04-20 19:40:15.246 27302 27342 I cr_WVCFactoryProvider: version=135.0.7049.38 (704903833) minSdkVersion=29 isBundle=false multiprocess=true packageId=3
+04-20 19:40:15.253 27302 27342 D nativeloader: Load /data/app/~~dB-Y7-row6RkeFBmOV8qoA==/com.google.android.trichromelibrary_704903833-9CyhLWlx7f-C6S3UFGktmA==/base.apk!/lib/arm64-v8a/libmonochrome_64.so using ns clns-9 from class loader (caller=/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk): ok
+04-20 19:40:15.254 27302 27342 D nativeloader: Load /system/lib64/libwebviewchromium_plat_support.so using ns clns-9 from class loader (caller=/data/app/~~vnuwbuSjwb45YEin3RgV3Q==/com.google.android.webview-8iEhbAYhrnwp-5wiJw3uxQ==/base.apk): ok
+04-20 19:40:15.257 27302 27348 I chromium: [0420/194015.257062:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+04-20 19:40:15.257 27302 27348 I chromium: [0420/194015.257822:INFO:variations_seed_loader.cc(67)] Failed to open file for reading.: No such file or directory (2)
+04-20 19:40:15.260 27302 27342 I cr_LibraryLoader: Successfully loaded native library
+04-20 19:40:15.261 27302 27342 I cr_CachingUmaRecorder: Flushed 6 samples from 6 histograms, 0 samples were dropped.
+04-20 19:40:18.238 27302 27373 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+04-20 19:40:19.085 27302 27373 W BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+04-20 19:40:19.124 27302 27333 E ReactNativeJS: TypeError: undefined is not a function
+04-20 19:40:19.124 27302 27333 E ReactNativeJS: 
+04-20 19:40:19.124 27302 27333 E ReactNativeJS: This error is located at:
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at App (https://mini.ct0.in/__federation_expose_App.chunk.bundle:21:54)
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at Suspense (<anonymous>)
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at App (<anonymous>)
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at RCTView (<anonymous>)
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at anonymous (address at index.android.bundle:1:327642)
+04-20 19:40:19.124 27302 27333 E ReactNativeJS:     at AppContainer (address at index.android.bundle:1:391529), js engine: hermes
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: ReactHost{0}.handleHostException(message = "TypeError: undefined is not a function
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: 
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: This error is located at:
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at App (https://mini.ct0.in/__federation_expose_App.chunk.bundle:21:54)
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at Suspense (<anonymous>)
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at App (<anonymous>)
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at RCTView (<anonymous>)
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at anonymous (address at index.android.bundle:1:327642)
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact:     at AppContainer (address at index.android.bundle:1:391529), js engine: hermes, stack:
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: getOwner@9060:63
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: jsxDEVImpl@9147:66
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: anonymous@9194:25
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: App@31:46
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: renderWithHooks@1:440815
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: updateFunctionComponent@1:453215
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: beginWork@1:461138
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: performUnitOfWork@1:481430
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: workLoopSync@1:480462
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: renderRootSync@1:480294
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: performWorkOnRoot@1:477786
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: performWorkOnRootViaSchedulerTask@1:431090
+04-20 19:40:19.136 27302 27334 W unknown:BridgelessReact: ")
+--------- beginning of crash
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: Process: com.host, PID: 27302
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: com.facebook.react.common.JavascriptException: TypeError: undefined is not a function
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: This error is located at:
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at App (https://mini.ct0.in/__federation_expose_App.chunk.bundle:21:54)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at Suspense (<anonymous>)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at App (<anonymous>)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at RCTView (<anonymous>)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at anonymous (address at index.android.bundle:1:327642)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime:     at AppContainer (address at index.android.bundle:1:391529), js engine: hermes, stack:
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: getOwner@9060:63
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: jsxDEVImpl@9147:66
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: anonymous@9194:25
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: App@31:46
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: renderWithHooks@1:440815
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: updateFunctionComponent@1:453215
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: beginWork@1:461138
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: performUnitOfWork@1:481430
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: workLoopSync@1:480462
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: renderRootSync@1:480294
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: performWorkOnRoot@1:477786
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: performWorkOnRootViaSchedulerTask@1:431090
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:997)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:111)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.java:27)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:237)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:325)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl.lambda$startNewBackgroundThread$2(MessageQueueThreadImpl.java:217)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+04-20 19:40:19.137 27302 27334 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1012)
+04-20 19:40:19.160 27302 27302 W unknown:BridgelessReact: ReactHost{0}.onHostPause(activity)
+04-20 19:40:19.161 27302 27302 W unknown:BridgelessReact: ReactContext.onHostPause()
+04-20 19:40:19.162 27302 27334 I HiView  : Begin report 1002
+04-20 19:40:19.162 27302 27334 D HiEvent : event mTime is 0, set mTime = 1745158219162
+04-20 19:40:19.162 27302 27334 I HiEvent : Flatten done: 1002
+04-20 19:40:19.162 27302 27334 I Process : Sending signal. PID: 27302 SIG: 9
